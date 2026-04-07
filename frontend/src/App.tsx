@@ -1,6 +1,6 @@
-import { useState, useEffect, useRef } from 'react'
+import { useState, useEffect } from 'react'
 import { Routes, Route, useNavigate, useLocation } from 'react-router-dom'
-import { supabase, VideoWithDetails, Analysis, Transcript } from './lib/supabase'
+import { supabase } from './lib/supabase'
 import SearchPage from './pages/SearchPage'
 import LibraryPage from './pages/LibraryPage'
 import SyncPage from './pages/SyncPage'
