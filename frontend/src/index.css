@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --jar-bg: #1a1714;
+  --jar-dark: #0f0d0a;
+  --jar-orange: #ff9843;
+  --jar-text: #f0ece4;
+  --jar-muted: rgba(240, 236, 228, 0.55);
+}
+
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  background: linear-gradient(180deg, var(--jar-bg) 0%, var(--jar-dark) 100%);
+  color: var(--jar-text);
+  font-family: 'SF Pro Text', 'PingFang SC', -apple-system, sans-serif;
+  min-height: 100vh;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+}
+
+input::placeholder, textarea::placeholder {
+  color: rgba(240, 236, 228, 0.25);
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 0.3; transform: scale(0.8); }
+  50% { opacity: 1; transform: scale(1.1); }
+}

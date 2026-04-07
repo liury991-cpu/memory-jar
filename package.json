@@ -1,0 +1,8 @@
+{
+  "name": "memory-jar",
+  "version": "1.0.0",
+  "description": "抖音收藏夹 → 可搜索知识库",
+  "scripts": {
+    "dev": "cd frontend && npm run dev"
+  }
+}
